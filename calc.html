@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="calc.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
             <p class="space" ></p>
             <table>
                 <tr>
-                    <td onclick="limpar()">C</td>
+                    <td onclick="clean()">C</td>
                     <td onclick="exclude()"><</td>
                     <td onclick="insert('/')">/</td>
                     <td onclick="insert('*')">x</td>   
@@ -35,7 +35,7 @@
                     <td onclick="insert('1')">1</td>
                     <td onclick="insert('2')">2</td>
                     <td onclick="insert('3')">3</td>
-                    <td rowspan="2" onclick="calcular()">=</td>
+                    <td rowspan="2" onclick="calc()">=</td>
                 </tr>
                 <tr>
                     <td colspan="2" onclick="insert(0)">0</td>
